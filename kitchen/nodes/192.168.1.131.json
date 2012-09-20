@@ -8,6 +8,9 @@
   "run_list":[
     "recipe[additional_packages]",
     "recipe[nginx::source]",
-    "recipe[user::data_bag]"
+    "recipe[user::data_bag]",
+    "recipe[postgresql::apt_postgresql_ppa]",
+    "recipe[postgresql::server]",
+    "recipe[postgresql::setup]"
   ]
 }
