@@ -1,4 +1,5 @@
 {
+  "users":["rails"],
   "additional_packages":[ "htop" ],
   "nginx":{
     "version":"1.3.6",
@@ -6,6 +7,7 @@
   },
   "run_list":[
     "recipe[additional_packages]",
-    "recipe[nginx::source]"
+    "recipe[nginx::source]",
+    "recipe[user::data_bag]"
   ]
 }
