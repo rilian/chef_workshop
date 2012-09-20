@@ -1,0 +1,12 @@
+[submodule "kitchen/cookbooks/nginx"]
+	path = kitchen/cookbooks/nginx
+	url = https://github.com/opscode-cookbooks/nginx.git
+[submodule "kitchen/cookbooks/build-essential"]
+	path = kitchen/cookbooks/build-essential
+	url = https://github.com/opscode-cookbooks/build-essential.git
+[submodule "kitchen/cookbooks/runit"]
+	path = kitchen/cookbooks/runit
+	url = https://github.com/opscode-cookbooks/runit.git
+[submodule "kitchen/cookbooks/ohai"]
+	path = kitchen/cookbooks/ohai
+	url = https://github.com/opscode-cookbooks/ohai.git
