@@ -10,3 +10,6 @@
 [submodule "kitchen/cookbooks/ohai"]
 	path = kitchen/cookbooks/ohai
 	url = https://github.com/opscode-cookbooks/ohai.git
+[submodule "kitchen/cookbooks/rvm"]
+	path = kitchen/cookbooks/rvm
+	url = https://github.com/fnichol/chef-rvm.git
