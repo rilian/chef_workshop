@@ -1,0 +1,9 @@
+{
+  "id":"rails",
+  "ssh_keys":[
+    "ssh-rsa *** rilian"
+  ],
+  "shell":"\/bin\/bash",
+  "comment":"Rails default user",
+  "password":""
+}
