@@ -13,3 +13,6 @@
 [submodule "kitchen/cookbooks/rvm"]
 	path = kitchen/cookbooks/rvm
 	url = https://github.com/fnichol/chef-rvm.git
+[submodule "kitchen/cookbooks/user"]
+	path = kitchen/cookbooks/user
+	url = git://github.com/fnichol/chef-user.git
