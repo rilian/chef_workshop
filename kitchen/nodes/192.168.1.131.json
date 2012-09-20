@@ -1,6 +1,6 @@
 {
-  "additional_packages": ["htop"],
-  "run_list": [
-          "recipe[additional_packages]"
+  "additional_packages":["htop"],
+  "run_list":[
+    "recipe[additional_packages]"
   ]
 }
