@@ -4,7 +4,7 @@
     {
       "username":"rails",
       "password":"secret",
-      "rights":["create"]
+      "rights":["createdb"]
     }
   ],
   "databases":[]
