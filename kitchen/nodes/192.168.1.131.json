@@ -5,6 +5,10 @@
     "version":"1.3.6",
     "default_site_enabled":false
   },
+  "postgresql":{
+    "setup_items":["rails"],
+    "version":"9.1"
+  },
   "run_list":[
     "recipe[additional_packages]",
     "recipe[nginx::source]",
