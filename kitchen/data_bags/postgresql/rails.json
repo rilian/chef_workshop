@@ -1,0 +1,10 @@
+{
+  "id":"rails",
+  "users":[
+    {
+      "username":"rails",
+      "password":"secret"
+    }
+  ],
+  "databases":[]
+}
